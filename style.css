@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.animation {
+    position: relative;
+    height: 100%;
+}
+
+.mounatains {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mountain_1 {
+    background: url("../img/m_1.png") 0 0 / cover no-repeat;
+    z-index: -1;
+}
+
+.mountain_2 {
+    background: url("../img/m_2.png") bottom right / 45% no-repeat;
+    z-index: 1;
+}
+
+.mountain_3 {
+    background: url("../img/m_3.png") bottom left / 100% no-repeat;
+    z-index: 1;
+}
+
+.fog {
+    background: url("../img/fog_1.png") bottom / 100% no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.content {
+    position: relative;
+}
+
+.content_body {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+.content_header {
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    color: rgb(6, 6, 27);
+}
+
+.content_title {
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.content_subtitle {
+    width: 50%;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Mulish', sans-serif;
+}
+
+.content_button {
+    border: 2px solid rgb(6, 6, 27);
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(6, 6, 27);
+    font-family: 'Mulish', sans-serif;
+}
+
+.content_button:hover {
+    background-color: rgba(6, 6, 27, 0.3);
+    color: silver;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.card_block {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card_image {
+    width: 60%;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 0 15px 0 rgba(6, 6, 27, 0.5);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card_title {
+    color: rgb(6, 6, 27);
+    font-family: 'Permanent Marker', cursive;
+    padding: 5px;
+}
+
+.card_subtitle {
+    color: rgb(6, 6, 27);
+    font-family: 'Mulish', sans-serif;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.card_button {
+    border: 2px solid rgb(6, 6, 27);
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px 15px;
+    font-size: 13px;
+    color: rgb(6, 6, 27);
+    font-family: 'Mulish', sans-serif;
+}
+
+.added {
+    background-color: rgba(6, 6, 27, 0.3);
+    color: silver;
+}
+
+.icons_bord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    height: 40px;
+    width: 40px;
+    padding: 15px;
+    margin: 15px;
+    color: rgb(6, 6, 27);
+}
+
+@media screen and (max-width:1040px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content_header {
+        text-align: center;
+    }
+    .content_subtitle {
+        margin: 0 auto;
+    }
+    .card_block {
+        width: 80%;
+    }
+}
