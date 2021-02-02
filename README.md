@@ -7,4 +7,4 @@ This page was build, using CSS and JavaScript.
 It present how we can use parallax effect for change the view of the home page.
 
 ##Gif Demo
-![gif demo](https://user-images.githubusercontent.com/73307960/106599393-463f9980-6559-11eb-97d4-76ac622bd41e.mp4)
+![parallax](https://user-images.githubusercontent.com/73307960/106601106-8ef85200-655b-11eb-91b0-b868a20a74c8.gif)
